@@ -1,0 +1,78 @@
+﻿@model PozemkoveUpravy.Models.Vlastnik
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Vlastnik</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Jmeno)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Jmeno)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Prijmeni)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Prijmeni)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefon)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Telefon)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Obec)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Obec)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ulice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ulice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cislo_popisne)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cislo_popisne)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PSC)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PSC)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.List_vlastnictvi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.List_vlastnictvi)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PozemkoveUpravy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PozemkoveUpravy.Forma_pozemkove_upravy)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,64 @@
+﻿@model PozemkoveUpravy.Models.Pozemek
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Pozemek</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="VlastnikId" class="control-label"></label>
+                <select asp-for="VlastnikId" class ="form-control" asp-items="ViewBag.VlastnikId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="List_vlastnictvi" class="control-label"></label>
+                <input asp-for="List_vlastnictvi" class="form-control" />
+                <span asp-validation-for="List_vlastnictvi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cislo_pozemku" class="control-label"></label>
+                <input asp-for="Cislo_pozemku" class="form-control" />
+                <span asp-validation-for="Cislo_pozemku" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Druh_pozemku" class="control-label"></label>
+                <input asp-for="Druh_pozemku" class="form-control" />
+                <span asp-validation-for="Druh_pozemku" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Zpusob_vyuziti_nemovitosti" class="control-label"></label>
+                <input asp-for="Zpusob_vyuziti_nemovitosti" class="form-control" />
+                <span asp-validation-for="Zpusob_vyuziti_nemovitosti" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Zpusob_ochrany_nemovitosti" class="control-label"></label>
+                <input asp-for="Zpusob_ochrany_nemovitosti" class="form-control" />
+                <span asp-validation-for="Zpusob_ochrany_nemovitosti" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vymera_v_m2" class="control-label"></label>
+                <input asp-for="Vymera_v_m2" class="form-control" />
+                <span asp-validation-for="Vymera_v_m2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vzdalenost_v_m" class="control-label"></label>
+                <input asp-for="Vzdalenost_v_m" class="form-control" />
+                <span asp-validation-for="Vzdalenost_v_m" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

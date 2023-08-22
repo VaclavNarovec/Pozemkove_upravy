@@ -1,0 +1,49 @@
+﻿@model PozemkoveUpravy.Models.OceneniPorostu
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>OceneniPorostu</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PozemekId" class="control-label"></label>
+                <select asp-for="PozemekId" class ="form-control" asp-items="ViewBag.PozemekId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="VlastnikId" class="control-label"></label>
+                <input asp-for="VlastnikId" class="form-control" />
+                <span asp-validation-for="VlastnikId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Druh_porostu" class="control-label"></label>
+                <input asp-for="Druh_porostu" class="form-control" />
+                <span asp-validation-for="Druh_porostu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vymera_v_m2" class="control-label"></label>
+                <input asp-for="Vymera_v_m2" class="form-control" />
+                <span asp-validation-for="Vymera_v_m2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cena_v_Kc" class="control-label"></label>
+                <input asp-for="Cena_v_Kc" class="form-control" />
+                <span asp-validation-for="Cena_v_Kc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

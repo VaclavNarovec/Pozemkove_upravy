@@ -1,0 +1,53 @@
+﻿@model PozemkoveUpravy.Models.PozemkovaUprava
+
+@{
+    ViewData["Title"] = "Smazat";
+}
+
+<h1>Smazat pozemkovou úpravu</h1>
+
+@*<h3>Are you sure you want to delete this?</h3>*@
+<div>
+    @*<h4>PozemkovaUprava</h4>*@
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2 text-dark">Kraj</dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Kraj)
+        </dd>
+        <dt class="col-sm-2 text-dark">Okres</dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Okres)
+        </dd>
+        <dt class="col-sm-2 text-dark">Obec</dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Obec)
+        </dd>
+        <dt class="col-sm-2 text-dark">Katastrální území</dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Katastralni_uzemi)
+        </dd>
+        <dt class="col-sm-2 text-dark">Pozemkový úřad</dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pozemkovy_urad)
+        </dd>
+        <dt class="col-sm-2 text-dark">Forma pozemkové úpravy</dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Forma_pozemkove_upravy)
+        </dd>
+        <dt class="col-sm-2 text-dark">Počátek</dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pocatek)
+        </dd>
+        <dt class="col-sm-2 text-dark">Konec</dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Konec)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Smazat" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-secondary">Zpět na přehled</a>
+    </form>
+</div>

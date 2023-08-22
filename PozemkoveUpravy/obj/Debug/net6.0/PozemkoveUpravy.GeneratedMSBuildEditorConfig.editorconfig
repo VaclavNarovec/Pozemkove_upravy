@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PozemkoveUpravy
+build_property.RootNamespace = PozemkoveUpravy
+build_property.ProjectDir = C:\Users\DELL\Dropbox\PozemkoveUpravy\PozemkoveUpravy\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\DELL\Dropbox\PozemkoveUpravy\PozemkoveUpravy
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Home/OAplikaci.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPQXBsaWthY2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/OceneniPorostus/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmVuaVBvcm9zdHVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/OceneniPorostus/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmVuaVBvcm9zdHVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/OceneniPorostus/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmVuaVBvcm9zdHVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/OceneniPorostus/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmVuaVBvcm9zdHVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/OceneniPorostus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmVuaVBvcm9zdHVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/OceneniPozemkus/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmVuaVBvemVta3VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/OceneniPozemkus/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmVuaVBvemVta3VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/OceneniPozemkus/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmVuaVBvemVta3VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/OceneniPozemkus/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmVuaVBvemVta3VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/OceneniPozemkus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmVuaVBvemVta3VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Pozemeks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96ZW1la3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Pozemeks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96ZW1la3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Pozemeks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96ZW1la3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Pozemeks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96ZW1la3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Pozemeks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96ZW1la3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/PozemkovaUpravas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96ZW1rb3ZhVXByYXZhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/PozemkovaUpravas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96ZW1rb3ZhVXByYXZhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/PozemkovaUpravas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96ZW1rb3ZhVXByYXZhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/PozemkovaUpravas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96ZW1rb3ZhVXByYXZhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/PozemkovaUpravas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96ZW1rb3ZhVXByYXZhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Vlastniks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmxhc3RuaWtzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Vlastniks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmxhc3RuaWtzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Vlastniks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmxhc3RuaWtzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Vlastniks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmxhc3RuaWtzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Vlastniks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmxhc3RuaWtzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Dropbox/PozemkoveUpravy/PozemkoveUpravy/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0tov9tc70x

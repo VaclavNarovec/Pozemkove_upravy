@@ -1,0 +1,75 @@
+﻿@model PozemkoveUpravy.Models.PozemkovaUprava
+
+@{
+    ViewData["Title"] = "Podrobnosti";
+}
+
+<h1>Podrobnosti o pozemkové úpravě</h1>
+
+<div>
+    @*<h4>Pozemková úprava</h4>*@
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2 text-dark">Kraj</dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Kraj)
+        </dd>
+        <dt class="col-sm-2 text-dark">Okres</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Okres)
+        </dd>
+        <dt class="col-sm-2 text-dark">Obec</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Obec)
+        </dd>
+        <dt class="col-sm-2 text-dark">Katastralní území</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Katastralni_uzemi)
+        </dd>
+        <dt class="col-sm-2 text-dark">Pozemkový úřad</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pozemkovy_urad)
+        </dd>
+        <dt class="col-sm-2 text-dark">Forma pozemkové úpravy</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Forma_pozemkove_upravy)
+        </dd>
+        <dt class="col-sm-2 text-dark">Počátek</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pocatek)
+        </dd>
+        <dt class="col-sm-2 text-dark">Konec</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Konec)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">Upravit</a> |
+    <a asp-controller="Vlastniks" asp-action="Create" class="btn btn-primary">Přidat vlastníka pozemků</a> |
+    <a asp-action="Index" class="btn btn-secondary">Zpět na přehled</a>
+</div>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Jmeno</th>
+                <th>Příjmení</th>
+                <th>Email</th>
+                <th>Telefon</th>
+                <th>Obec</th>
+                <th>Ulice</th>
+                <th>Číslo popisné</th>
+                <th>PSČ</th>
+                <th>List vlastnictví</th>
+                <th></th>
+            </tr>
+        </thead>
+    <tbody>        
+            @foreach(var item in Model.Vlastnici)
+            {
+                <tr><td>@item.Jmeno</td></tr>
+            }
+        </tbody>
+</table>
+</div>

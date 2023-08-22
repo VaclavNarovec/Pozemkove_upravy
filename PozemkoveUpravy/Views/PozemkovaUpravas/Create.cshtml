@@ -1,0 +1,65 @@
+﻿@model PozemkoveUpravy.Models.PozemkovaUprava
+
+@{
+    ViewData["Title"] = "Přidat novou poz. úpravu";
+}
+
+<h1>Přidat novou pozemkovou úpravu</h1>
+
+@*<h4>PozemkovaUprava</h4>*@
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Kraj" class="control-label">Kraj</label>
+                <input asp-for="Kraj" class="form-control" />
+                <span asp-validation-for="Kraj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Okres" class="control-label">Okres</label>
+                <input asp-for="Okres" class="form-control" />
+                <span asp-validation-for="Okres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Obec" class="control-label">Obec</label>
+                <input asp-for="Obec" class="form-control" />
+                <span asp-validation-for="Obec" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Katastralni_uzemi" class="control-label">Katastrální území</label>
+                <input asp-for="Katastralni_uzemi" class="form-control" />
+                <span asp-validation-for="Katastralni_uzemi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pozemkovy_urad" class="control-label">Pozemkový úřad</label>
+                <input asp-for="Pozemkovy_urad" class="form-control" />
+                <span asp-validation-for="Pozemkovy_urad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Forma_pozemkove_upravy" class="control-label">Forma pozemkové úpravy</label>
+                <input asp-for="Forma_pozemkove_upravy" class="form-control" />
+                <span asp-validation-for="Forma_pozemkove_upravy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pocatek" class="control-label">Počátek</label>
+                <input asp-for="Pocatek" class="form-control" />
+                <span asp-validation-for="Pocatek" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Konec" class="control-label">Konec</label>
+                <input asp-for="Konec" class="form-control" />
+                <span asp-validation-for="Konec" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Vytvořit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Zpět na přehled</a>
+</div>
+

@@ -1,0 +1,48 @@
+﻿@model PozemkoveUpravy.Models.OceneniPorostu
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>OceneniPorostu</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VlastnikId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VlastnikId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Druh_porostu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Druh_porostu)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Vymera_v_m2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Vymera_v_m2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cena_v_Kc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cena_v_Kc)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pozemky)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pozemky.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
